@@ -1,5 +1,15 @@
-footer{
-    color: #1089FF;
-    background-color: black;
+@import "./utilities/variables";
+footer {
+    color: $color-principal;
+    background-color: $color-secundario;
     text-align: right; 
+    bottom: 0;
+    margin-top: auto;
+    grid-area: footer;
+    position: relative;
+    max-width: 100%;
+    size: 10px;
+    background-size: 80%;
+    font-size: x-small;
 }
+
